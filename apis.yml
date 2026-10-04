@@ -49,7 +49,7 @@ tags:
 - Privacy
 - Federated Learning
 - Differential Privacy
-- Machine-Learning
+- Machine Learning
 - Data Science
 - Acquired
 tags_raw:
@@ -61,6 +61,7 @@ tags_raw:
 - Machine Learning
 - Data Science
 - Acquired
+- Machine-Learning
 apis: []
 maintainers:
 - FN: Kin Lane

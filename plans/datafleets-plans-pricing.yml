@@ -1,0 +1,85 @@
+# Pricing transcribed from the provider's own page — see provenance. Numbers are quoted, not derived.
+generated: '2026-10-07'
+method: searched
+source: https://www.intercom.com/pricing
+sources:
+- https://www.intercom.com/pricing
+provenance:
+  tool: all/0-working/economics/harvest_pricing.py
+  run: 20261007T122525
+  grounding: every price_text was found verbatim in the fetched page text
+audience: business-product
+pricing_basis: tiered-subscription
+delivery:
+  delivery: managed
+  method: page
+  read: '2026-10-07'
+  managed_tier: Essential
+published: true
+note: Intercom pricing page (provider labeled datafleets but content is Intercom). Seat-based tiers plus
+  usage charges ($0.99 per Fin outcome) and add-ons; 14-day free trial.
+plan_count: 7
+currency: USD
+plans:
+- name: Essential
+  price_text: $29 per seat/mo
+  price: 29
+  currency: USD
+  period: month
+  unit: seat
+  included_quota: Fin for service, sales & ecommerce; Messenger; Shared inbox and ticketing system; Pre-built
+    reports; Public help center
+  overage: From $0.99 per Fin outcome
+- name: Advanced
+  price_text: $85 per seat/mo
+  price: 85
+  currency: USD
+  period: month
+  unit: seat
+  included_quota: Every Essential feature, plus multiple team Inboxes, Workflows automation builder, Round
+    robin assignment, Private and multilingual Help Center, Includes 20 free Lite seats
+  overage: From $0.99 per Fin outcome
+- name: Expert
+  price_text: $132 per seat/mo
+  price: 132
+  currency: USD
+  period: month
+  unit: seat
+  included_quota: Every Advanced feature, plus SSO & identity management, HIPAA support, SLAs, Multibrand
+    Messenger / Help Center, Includes 50 free Lite seats
+  overage: From $0.99 per Fin outcome
+- name: Fin AI Agent (with existing helpdesk)
+  price_text: From $0.99 per Fin outcome
+  price: 0.99
+  currency: USD
+  period: per-use
+  unit: Fin outcome
+  included_quota: No seats required; no setup, integration, or platform fees
+  overage: Minimum monthly commitment applies (e.g. 50 outcomes)
+- name: Pro add-on
+  price_text: From $100 /mo
+  price: 100
+  currency: USD
+  period: month
+  unit: workspace
+  included_quota: analysis of 500 conversations/month and 6,000 credits per month
+  overage: additional credits at $0.01 per credit
+- name: Copilot add-on
+  price_text: $29 per agent/mo
+  price: 29
+  currency: USD
+  period: month
+  unit: agent
+  included_quota: unlimited usage; 10 Copilot and 10 AI Auto-translation conversations free per agent/mo
+  overage: $35 per agent/month billed monthly
+- name: Proactive Support Plus
+  price_text: $99 /mo
+  price: 99
+  currency: USD
+  period: month
+  unit: workspace
+  included_quota: 500 messages
+  overage: Additional messages are charged per unit
+rate_limit_statements:
+- Minimum monthly commitment applies (e.g. 50 outcomes)
+- 1 Full seat minimum
